@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mable - Дискорд бот</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="Mable.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="Mable.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="Mable.png">
+	<link rel="manifest" href="Mable.png">
+	<link rel="mask-icon" href="Mable.png" color="#5bbad5">
+	<link rel="shortcut icon" href="Mable.png">
+	<meta name="msapplication-TileColor" content="#603cba">
+	<meta name="msapplication-config" content="Mable.pngl">
+	<meta name="theme-color" content="#ffffff">
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script>
+		var a = 0
+		$(document).ready(function(){
+			$('#prefiximg').hide();
+			$('#economyimg').hide();
+			$('#clansimg').hide();
+			$('#actionsimg').hide();
+			$('#shopimg').hide();
+			$('#prefix').click(function(){
+				$('.yy').hide();
+				if (a === 0){
+					$('#prefiximg').slideToggle()
+					a = $(this).attr('id');
+				}
+				else{
+					var id = '#' + a + 'img'
+					if (id === '#prefiximg'){
+						$('#prefiximg').slideToggle()
+						a = 0
+					}
+					else{
+						$(id).slideToggle()
+						$('#prefiximg').slideToggle()
+						a = $(this).attr('id');
+					}
+				}
+			});
+			$('#economy').click(function(){
+				$('.yy').hide();
+				if (a === 0){
+					$('#economyimg').slideToggle()
+					a = $(this).attr('id');
+				}
+				else{
+					var id = '#' + a + 'img'
+					if (id === '#economyimg'){
+						$('#economyimg').slideToggle()
+						a = 0
+					}
+					else{
+						$(id).slideToggle()
+						$('#economyimg').slideToggle()
+						a = $(this).attr('id');
+					}
+				}
+			});
+			$('#clans').click(function(){
+				$('.yy').hide();
+				if (a === 0){
+					$('#clansimg').slideToggle()
+					a = $(this).attr('id');
+				}
+				else{
+					var id = '#' + a + 'img'
+					if (id === '#clansimg'){
+						$('#clansimg').slideToggle()
+						a = 0
+					}
+					else{
+						$(id).slideToggle()
+						$('#clansimg').slideToggle()
+						a = $(this).attr('id');
+					}
+				}
+			});
+			$('#actions').click(function(){
+				$('.yy').hide();
+				if (a === 0){
+					$('#actionsimg').slideToggle()
+					a = $(this).attr('id');
+				}
+				else{
+					var id = '#' + a + 'img'
+					if (id === '#actionsimg'){
+						$('#actionsimg').slideToggle()
+						a = 0
+					}
+					else{
+						$(id).slideToggle()
+						$('#actionsimg').slideToggle()
+						a = $(this).attr('id');
+					}
+				}
+			});
+			$('#shop').click(function(){
+				$('.yy').hide();
+				if (a === 0){
+					$('#shopimg').slideToggle()
+					a = $(this).attr('id');
+				}
+				else{
+					var id = '#' + a + 'img'
+					if (id === '#shopimg'){
+						$('#shopimg').slideToggle()
+						a = 0
+					}
+					else{
+						$(id).slideToggle()
+						$('#shopimg').slideToggle()
+						a = $(this).attr('id');
+					}
+				}
+			});
+		});
+	</script>
+	<style type="text/css">
+		#d {
+			background: gray;
+			height: 80px;
+			width: 700px;
+			border-radius: 10px;
+			margin-left: 22%;
+			display: flex;
+		}
+		#g {
+			color: black;
+			margin-left: 3%;
+		}
+		#t {
+			background: black;
+		}
+		#k{
+			background: white;
+			color: black;
+			border-radius: 5px;
+			margin: 20px ;
+			margin-left: 1%;
+			vertical-align: sub;
+			text-decoration: none;
+			text-align: center;
+			padding: 7px;
+			white-space: nowrap;
+		}
+		#r{
+			background: white;
+			color: black;
+			border-radius: 5px;
+			margin: 20px ;
+			margin-left: 37%;
+			vertical-align: sub;
+			text-decoration: none;
+			text-align: center;
+			padding: 8px;
+			white-space: nowrap;
+			#opacity: #9;
+		}
+		#r:hover{
+			#opacity: #3;
+		}
+		#l{
+			color: black;
+		}
+		#p {
+			border-radius: 20px;
+			margin-top: 10px;
+			white-space: nowrap;
+			height: 200px;
+			width: 600px;
+			background: gray;
+		}
+		#kk {
+			color: white;
+			text-shadow:0 0 20px white;
+		}
+		#prefix,#economy,#clans,#actions,#shop {
+			color: white;
+			text-decoration: none;
+		}
+		#c {
+			color: white;
+		}
+</style>
+	<header id="d">
+		<td>
+			<h1 id="g">Mable</h1>
+			<a href="https://discord#com/api/oauth2/authorize?client_id=756181697023705260&permissions=8&scope=bot" id="r" target="_blank">Пригласить бота</a>
+			<a href="https://bots#server-discord#com/756181697023705260" id="k" target="_blank">Бот на мониторинге</a>
+		</td>
+	</header>
+</head>
+<body id="t">
+	<h1 align="center" id="kk">Mable - Дискорд бот</h1>
+	<div id="p">
+		<h1>&nbsp;Описание</h1>
+		<span id="l">
+			&nbsp;Привет! Думаешь почему у бота есть баги?<br>
+			&nbsp;Просто создатель бота не кормит его по одному месяцу🙀<br>
+			&nbsp;А так бот имеет много чего интересно:<br>
+			&nbsp;Кланы, экономика, дефолтные команды<br>
+			&nbsp;Чтобы полностью ознакомиться с командами просто добавь бота на свой сервер;D<br>
+			&nbsp;Бай-бай желаю удачно освоить бота!
+		</span>
+	</div>
+	<h1 align="center" id="kk">Возможности</h1>
+	<h1 align="center" id="kk" class="yy">Для того чтобы посмотреть примеры нажимайте на загаловки!</h1>
+	<td><h1><a href="#Префикс" id = "prefix">Настройка префикса</a></h1><img src="prefix.png" id="prefiximg"></td>
+	<td><h1><a href="#Экономика" id = "economy">Экономика</a></h1><img src="economy.png" id="economyimg"></td>
+	<td><h1><a href="#Кланы" id = "clans">Кланы</a></h1><img src="clans.png" id="clansimg"></td>
+	<td><h1><a href="#Действия" id = "actions">Действия</a></h1><img src="actions.png" id="actionsimg"></td>
+	<td><h1><a href="#Магазин ролей" id = "shop">Магазин ролей</a></h1><img src="shop.png" id="shopimg"></td>
+	<h2 id = "kk">Это ещё не полный список команд!</h2>
+</body>
+</html>
